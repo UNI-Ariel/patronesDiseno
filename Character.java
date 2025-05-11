@@ -1,4 +1,7 @@
-
+//Clase principal para la creación de personajes
+//y la utilización de Factory Method
+//Tambien extiende la clase Entity 
+//Cumpliendo con Template Method
 public class Character extends Entity {
   private String name;
   private int level;

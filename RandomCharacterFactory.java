@@ -1,5 +1,6 @@
 import java.util.Random;
 
+//Clase que implementa CharacterFactory
 public class RandomCharacterFactory implements CharacterFactory {
   private final String[] names = { "Carl", "Edge", "Lau" };
   private final int primaryStat = 20;

@@ -1,5 +1,8 @@
 import java.util.Random;
 
+//Clase abstracta que define algunos calculos sensillos de daño
+//y que la clase Character exiende para su uso del calculo de daño
+//cumpliendo con Template Method
 abstract class Entity{
   final int calculateDamage(){
     int critical = new Random().nextInt(50) < luckValue() ? 2 : 1;

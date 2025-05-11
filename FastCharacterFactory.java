@@ -1,3 +1,4 @@
+//Clase que implementa CharacterFactory
 public class FastCharacterFactory implements CharacterFactory{
     @Override
     public Character createCharacter(String name){
