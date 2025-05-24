@@ -1,5 +1,5 @@
 package simplegame.negocio;
-
+// Clase para implementar Decorator
 public abstract class CharacterDecorator extends Character {
   protected Character character;
 
