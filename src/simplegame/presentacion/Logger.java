@@ -1,3 +1,5 @@
+package simplegame.presentacion;
+
 public interface Logger {
   public void logGenericDetails();
   public void logDamageRolls();

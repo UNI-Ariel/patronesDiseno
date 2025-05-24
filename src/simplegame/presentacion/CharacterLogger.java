@@ -1,3 +1,7 @@
+package simplegame.presentacion;
+
+import simplegame.negocio.Character;
+
 public class CharacterLogger implements Logger {
   private Character character;
 

@@ -1,3 +1,5 @@
+package simplegame.negocio;
+
 import java.util.Random;
 
 //Clase que implementa CharacterFactory

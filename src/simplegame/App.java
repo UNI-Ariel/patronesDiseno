@@ -1,4 +1,13 @@
-public class Main {
+package simplegame;
+
+import simplegame.negocio.Character;
+import simplegame.negocio.FastCharacterFactory;
+import simplegame.negocio.RandomCharacterFactory;
+import simplegame.negocio.StrongCharacterFactory;
+import simplegame.presentacion.CharacterLogger;
+import simplegame.presentacion.Logger;
+
+public class App {
   public static void main(String[] args) {
     Character c1 = new RandomCharacterFactory().createCharacter(null);
     Character c2 = new FastCharacterFactory().createCharacter("Speed");
